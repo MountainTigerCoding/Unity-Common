@@ -1,0 +1,15 @@
+{
+    "name": "com.mountaintigercoding.unitycommon",
+    "version": "0.0.1",
+    "displayName": "MT Common",
+    "description": "This is a common utility package used by all Mountain Tiger packages",
+    "documentationUrl": "https://example.com/",
+    "changelogUrl": "https://example.com/changelog.html",
+    "licensesUrl": "https://example.com/licensing.html",
+    "keywords": [],
+    "author": {
+      "name": "Mountain Tiger",
+      "email": "shaanmonis@gmail.com",
+      "url": "https://www.unity3d.com"
+    }
+}
