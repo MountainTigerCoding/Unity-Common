@@ -21,16 +21,18 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Blockout_Grid
-  m_Shader: {fileID: -6465566751694194690, guid: cf5bb915204b5eb49a332388eb71af9a, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: a1cfbf09f8326e54baef5ac3e5008602,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _PROJECTION_SPACE_WORLD
   m_InvalidKeywords:
   - _DISABLE_SSR_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2225
+  m_CustomRenderQueue: -1
   stringTagMap:
     MotionVector: User
   disabledShaderPasses:
@@ -79,9 +81,11 @@ Material:
     - _EnableFogOnTransparent: 1
     - _EnableSlopeWarning: 0
     - _ExcludeFromTUAndAA: 0
+    - _Float: -0.004
     - _MaterialID: 1
     - _MaterialTypeMask: 2
     - _OpaqueCullMode: 2
+    - _PROJECTION_SPACE: 1
     - _PerPixelSorting: 0
     - _QueueControl: 1
     - _QueueOffset: 0
@@ -91,7 +95,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Slope: 0.1
+    - _Slope: -0.098
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
@@ -123,7 +127,6 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _SlopeColor: {r: 1, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!114 &9006024409387979058
 MonoBehaviour:
   m_ObjectHideFlags: 11
