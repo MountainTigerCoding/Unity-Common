@@ -1,0 +1,16 @@
+{
+    "name": "Runtime.Shared",
+    "rootNamespace": "Runtime.Shared",
+    "references": [
+        "GUID:68bdb036bbe03f2439bf940a3581eaee"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
